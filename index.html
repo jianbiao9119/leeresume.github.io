@@ -23,16 +23,21 @@
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 
-		<style>
-			.about-content {
-			text-align: justify;
+<style>
+    .about-content {
+    text-align: justify;
 			}
-			.img-portfolio {
+    .img-portfolio {
     width: 500px; /* Fixed width */
     height: 200px; /* Fixed height */
     object-fit: cover; /* Prevents stretching */
 }
-			</style>
+.logo img {
+  max-width: 100%; /* Prevents it from overflowing its container */
+  height: auto;    /* Maintains aspect ratio */
+  display: block;  /* Removes small bottom space */
+}
+</style>
   </head>
 
   <body>
