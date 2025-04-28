@@ -32,16 +32,13 @@
     height: 200px; /* Fixed height */
     object-fit: cover; /* Prevents stretching */
 }
-.logo {
-      max-width: 200px; /* Control max size */
-      margin: 0 auto;   /* Center it */
-    }
+/* For small screens (less than 500px wide) */
+@media screen and (max-width: 500px) {
+  .logo {
+    width: 400px; /* make logo bigger on small screens */
+  }
+}
 
-    .logo img {
-      max-width: 100%;
-      height: auto;
-      display: block;
-    }
 </style>
   </head>
 
